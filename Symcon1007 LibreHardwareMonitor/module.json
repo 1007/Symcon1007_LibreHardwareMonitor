@@ -1,0 +1,15 @@
+{
+	"id": "{64266EE8-460E-BDC0-69CE-32DA27CDA823}",
+	"name": "LibreHardwareMonitor",
+	"type": 3,
+  "url": "https://github.com/1007/Symcon1007_LibreHardwareMonitor",
+	"vendor": "",
+	"aliases": 
+	[
+		"LibreHardwareMonitor"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "LHM"
+}

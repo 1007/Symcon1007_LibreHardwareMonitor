@@ -1,0 +1,30 @@
+{
+  "elements":
+  [
+
+    { "type": "Label"             , "label":  "####### Sensibo 1.0 #######" },
+    
+    { "type": "Button"            , "caption": "Dokumentation", "onClick": "echo 'https://github.com/1007/Symcon1007_Sensibo/tree/master/';" },
+    
+
+    { "type": "ValidationTextBox", "name": "APIKey", "caption": "API Key" },
+    
+    { "type": "IntervalBox"       , "name" :  "Intervall", "caption": "Sekunden" }
+
+
+  ],
+  
+
+
+  "status":
+    [
+        { "code": 101, "icon": "active", "caption": "Sensibo wird erstellt..." },
+        { "code": 102, "icon": "active", "caption": "Sensibo ist aktiv" },
+      
+        { "code": 202, "icon": "error",  "caption": "API Key falsch" }
+
+    ]
+
+
+
+}
